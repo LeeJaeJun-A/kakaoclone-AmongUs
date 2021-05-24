@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find - AmongUs</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class = "status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>32%</span>
+                <i class="fas fa-battery-quarter"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <header class="screen__header">
+            <h1 class="screen-header__title">Find</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fas fa-search fa-lg"></i>
+                </span>
+                <span class="screen-header__icons__cog">
+                    <i class="fas fa-cog fa-lg"></i>
+                </span>     
+            </div>
+        </header>
+        <main class ="main-screen">
+           <div class="icon-row">
+               <div class="icon-row__icon">
+                    <i class="fas fa-qrcode"></i>
+                   <span class="icon-row__icon__margin">QR Code</span>              
+                </div>
+               <div class="icon-row__icon">
+                    <i class="far fa-address-book"></i>
+                    <span class="icon-row__icon__margin">Add by Contacts</span>
+                </div>
+               <div class="icon-row__icon">
+                    <i class="fas fa-fingerprint"></i>
+                   <span class="icon-row__icon__margin">Add by ID</span>
+                </div>
+               <div class="icon-row__icon">
+                    <i class="far fa-envelope"></i>
+                   <span class="icon-row__icon__margin">Invite</span>
+                </div>
+           </div>
+           <div class="recommended-friends">
+               <h6 class="recommended-friends__title">My items</h6>
+                <span>You have no items.</span>
+           </div>
+           <div class="open-chat">
+               <div class="open-chat__header">
+                    <h4>New Items!</h4>
+                    <span>See More<i class="fas fa-chevron-right fa-xs"></i></span>
+               </div>
+               <div class="open-post">
+                   <div class="open-post__column">
+                       <h5 class="open-post__title">#CHEESE</h5>
+                       <h6 class="open-post__hashtags">#don't eat#this is hat</h6>
+                       <div class="open-post__members">
+                            <img src="image/black.PNG"/>
+                            <span class="open-post__member-count">802 members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                       </div>
+                   </div>
+                   <div class="open-post__column">
+                      <div class="open-post__photo">
+                        <img src="image/cheese.PNG"/>
+                        <div class="open-post__heart-count">
+                          <i class="fas fa-heart fa-xs"></i>
+                          <span>326</span>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="open-post__column">
+                    <h5 class="open-post__title">#Santa hat</h5>
+                    <h6 class="open-post__hashtags">#Christmas#Don't cry baby</h6>
+                    <div class="open-post__members">
+                         <img src="image/black.PNG"/>
+                         <span class="open-post__member-count">403 members</span>
+                         <div class="divider"></div>
+                         <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                   <div class="open-post__photo">
+                     <img src="image/christmas.PNG"/>
+                     <div class="open-post__heart-count">
+                       <i class="fas fa-heart fa-xs"></i>
+                       <span>583</span>
+                     </div>
+                   </div>
+                </div>
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#Cowboy hat</h5>
+                    <h6 class="open-post__hashtags">#man#cool</h6>
+                    <div class="open-post__members">
+                         <img src="image/purple.PNG"/>
+                         <span class="open-post__member-count">240 members</span>
+                         <div class="divider"></div>
+                         <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                   <div class="open-post__photo">
+                     <img src="image/cowboy.PNG"/>
+                     <div class="open-post__heart-count">
+                       <i class="fas fa-heart fa-xs"></i>
+                       <span>103</span>
+                     </div>
+                   </div>
+               </div>
+           </div>
+        </main>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">4</span>
+                        <i class="far fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <span class="nav__dot"></span>
+                    <a class="nav__link"  href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div id="no-mobile">
+            <img class = "no-mobile__background" src="image/background.PNG"/>
+            <span class = "no-mobile__alert">Please adjust the screen width to less than 550px</span>
+        </div>
+        <script src="https://kit.fontawesome.com/b263a1e1e9.js" crossorigin="anonymous"></script>
+    </body>
+</html>

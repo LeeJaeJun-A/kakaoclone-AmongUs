@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to AmongUs</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body class="login-body">
+        <div class = "status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>32%</span>
+                <i class="fas fa-battery-quarter"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <header class = "welcome-header">
+            <h1 class="welcome-header__title">Welcome to AmongUs</h1>
+            <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number</p>
+        </header>
+        <form action="friends.html" method="get" id="login-form">
+            <input type = "Email" required placeholder="Email"/>
+            <input minlength = "8" type = "password" required placeholder="Password"/>
+            <input class = "login-button" type = "submit" value="Log In" />
+            <a href = "#" >Find Kakao Account or Password</a>
+        </form>
+        <div id="no-mobile">
+            <img class = "no-mobile__background" src="image/background.PNG"/>
+            <span class = "no-mobile__alert">Please adjust the screen width to less than 550px</span>
+        </div>
+        <script src="https://kit.fontawesome.com/b263a1e1e9.js" crossorigin="anonymous"></script>
+    </body>
+</html>
